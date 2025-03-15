@@ -8,7 +8,13 @@ body{
     height: 150px;
 
 }
-
+.navbar {
+    position: relative;
+    z-index: 1050;
+}
+.navbar-collapse {
+    background: rgb(162, 124, 162);
+}
 .barra-navegacion{
     height: 155px;
     font-weight: bold;
@@ -31,7 +37,7 @@ body{
 }
 
 header{
-    background-color: rgba(216, 191, 216, 0.7);
+    background-color: rgb(162, 124, 162);
 }
 
 .card{
@@ -62,5 +68,20 @@ header{
 .card:hover {
     animation: botar 1.5s infinite alternate ease-in-out;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.redes-sociales{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: rgba(162, 124, 162, 0.7);
+}
+.fa-lg{
+    font-size: 2.25em !important;
+}
+
+.fa-lg:hover{
+    color: #000000;
 }
 
