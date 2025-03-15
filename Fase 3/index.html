@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Road to Valhalla</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="text-white text-center py-3">
+        <nav class="navbar navbar-expand-lg barra-navegacion">
+            <div class="container">
+                <img src="imagenes/Logotipo.png" class="img-fluid logotipo" alt="Logotipo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historia">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#personaje">Personaje</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#escenarios">Escenarios</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="historia" class="container my-5">
+        <div class="card p-4">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center">
+                    <video width="100%" controls>
+                        <source src="videos/Trailer The Road To Valhalla.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de videos.
+                    </video>
+                </div>
+                <div class="col-md-6">
+                    <h2 class="titulo text-center">Historia</h2>
+                    <p class="text-justify">
+                        Road To Valhalla es un juego de plataformas 2D que sigue la historia de Brunilde, una guerrera vikinga que, harta de esperar a ser ascendida a valquiria por los dioses, decide escalar el monte Mjörn. Cuentan las leyendas que es tan alto que llega al mismísimo Valhalla, donde residen tanto héroes de antaño como los dioses nórdicos. Solo los caídos en batalla o los que logran grandes hazañas pueden llegar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>    
+    <section id="personaje" class="container my-5">
+        <div class="card p-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h2 class="titulo text-center">Conoce a Brunilde</h2>
+                    <p>Brunilde es la heroína de nuestra historia. Desde pequeña, Brunilde siempre había oído historias sobre como los héroes más poderosos
+                        se podían ganar un lugar en el Valhalla, el hogar de los dioses nórdicos. Cansada de esperar a que los dioses la ascendieran a valquiria,
+                        decide emprender un viaje al monte Mjörn, el cuál se dice que llega hasta el mismísimo Valhalla. ¿Podrá mostrar su valía ante los dioses?</p>    
+                    </p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="imagenes/Brunilde.png" alt="Personaje" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="escenarios" class="container my-5">
+        <div class="card p-4">
+            <h2 class="titulo text-center">Escenarios</h2>
+            <div>
+                <p class="text-center">Embárcate en una aventura sin igual mientras subes por la montaña.
+                    Desafía a los elementos mientras escalas en busca de la gloria.
+                </p>
+                <div id="escenariosCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/Escenario 1.png" class="d-block w-100" alt="Escenario 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/Escenario 2.png" class="d-block w-100" alt="Escenario 2">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#escenariosCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#escenariosCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 The Road to Valhalla. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

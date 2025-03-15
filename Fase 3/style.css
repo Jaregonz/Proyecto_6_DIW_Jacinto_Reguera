@@ -1,0 +1,48 @@
+
+body{
+    background-image: url('imagenes/Montaña\ Escenario.jpg');
+    background-size: cover;
+}
+.logotipo{
+    width: 150px;
+    height: 150px;
+
+}
+
+.barra-navegacion{
+    height: 155px;
+    font-weight: bold;
+    font-size: 18px;
+    gap: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px;
+}
+
+.nav-item .nav-link{
+    color: #FFFFFF;
+}
+
+.carousel-item{
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}
+
+header{
+    background-color: rgba(216, 191, 216, 0.7);
+}
+
+.card{
+    background-color: rgb(175, 98, 175, 0.8) !important;
+}
+
+.card p{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+.card h2{
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
