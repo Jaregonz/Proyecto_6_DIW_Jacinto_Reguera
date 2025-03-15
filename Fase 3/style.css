@@ -46,3 +46,21 @@ header{
     color: #FFFFFF;
     margin-bottom: 15px;
 }
+@keyframes botar {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.card {
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    animation: botar 1.5s infinite alternate ease-in-out;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
